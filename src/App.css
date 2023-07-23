@@ -1,0 +1,68 @@
+.navbar {
+  padding: 0.7rem 3rem;
+  background-color: var(--textColor4);
+}
+
+.navbar__container {
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__container--left {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.navbar__container--left a {
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+.el-logo {
+  margin-left: 0 !important;
+}
+
+.el-logo img {
+  width: 100px;
+}
+
+.el-product,
+.el-login {
+  font-size: 16px;
+  color: var(--primaryBlack);
+  text-decoration: none;
+  font-weight: var(--mediumFontWeight);
+}
+
+.el-product img {
+  width: 20px;
+  margin-left: 7px;
+}
+
+.navbar__container--right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__container--right a,
+.navbar__container--right .el-explore {
+  margin: 0 1.75rem;
+}
+
+.el-explore {
+  width: 18px;
+}
+
+.el-join {
+  padding: 9px 25px;
+  border-radius: 3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: var(--boldFontWeight);
+  color: var(--textColor4);
+  background-image: var(--secondaryColor);
+  vertical-align: middle;
+}
