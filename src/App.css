@@ -65,4 +65,66 @@
   color: var(--textColor4);
   background-image: var(--secondaryColor);
   vertical-align: middle;
+  margin-right: 0 !important;
+}
+
+/* HOME CONTAINER */
+
+.home {
+  padding: 3rem 4rem 2rem 6rem;
+  display: flex;
+}
+
+.home__left {
+  margin-right: auto;
+}
+
+.el-first,
+.el-price-tag {
+  color: var(--textColor4);
+  font-family: var(--fontFamily);
+  font-weight: var(--semiBoldFontWeight);
+  font-size: 56px;
+}
+
+.el-prevPrice,
+.el-rp,
+.el-currPrice {
+  font-family: var(--robotoFont);
+  font-size: 64px;
+}
+
+.el-prevPrice {
+  text-decoration: line-through;
+  text-decoration-color: var(--dangerColor2);
+}
+
+.el-currPrice {
+  color: var(--primaryColor);
+}
+
+.el-bnlist {
+  list-style-type: none;
+}
+
+.el-points {
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.el-pImg {
+  margin-right: 2rem;
+  width: 60px;
+}
+
+.el-pText {
+  color: var(--textColor4);
+  font-family: var(--robotoFont);
+  letter-spacing: 0.5px;
+  font-size: 32px;
+}
+
+.el-imp {
+  color: var(--primaryColor);
 }

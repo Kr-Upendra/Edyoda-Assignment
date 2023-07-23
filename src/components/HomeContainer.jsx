@@ -1,7 +1,11 @@
+import Benefits from "./Benefits";
+import PricingCard from "./PricingCard";
+
 export default function HomeContainer() {
   return (
     <div className="home">
-      <h1>This is Home page content</h1>
+      <Benefits />
+      <PricingCard />
     </div>
   );
 }
