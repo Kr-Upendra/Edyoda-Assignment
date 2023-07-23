@@ -1,3 +1,29 @@
 :root {
-  font-size: 15px;
+  --font-size: 15px;
+  --textColor1: #d9d9d9;
+  --textColor2: #3c4852;
+  --textColor3: #bebebe;
+  --textColor4: #ffffff;
+  --alertTextColor: #de4313;
+  --alertFillColor: linear-gradient(
+    rgba(222, 66, 19, 0.2),
+    rgba(254, 192, 98, 0.2)
+  );
+  --alertBorder: linear-gradient(#de4213, #fec062);
+  --disabledColor: #e7e7e7;
+  --successColor: #47ba68;
+  --successColor2: #d7eddd;
+  --dangerColor: #f77171;
+  --dangerColor2: #ff0000;
+  --primaryColor: #0096ff;
+  --secondColor: linear-gradient(to right, #1e00ff, #0096ff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/bg-image.png");
 }
